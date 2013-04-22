@@ -85,3 +85,15 @@ swiftmailer:
 
 jms_security_extra:
     secure_all_services: false
+
+#sonata_admin:
+#    dashboard:
+#        blocks:
+#            # display a dashboard block
+#            - { position: left, type: sonata.admin.block.admin_list }
+#
+#        groups:
+#            sonata_page:
+#                label: Restauracia
+#                items: ~
+#

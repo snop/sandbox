@@ -27,6 +27,22 @@
             <argument>Sonata\Bundle\DemoBundle\Entity\Engine</argument>
             <argument />
         </service>
+
+        <service id="sonata.demo.admin.restauracia" class="Sonata\Bundle\DemoBundle\Admin\RestauraciaAdmin">
+            <tag name="sonata.admin" manager_type="orm" group="My" label="Restauracia" audit="false" />
+
+            <argument />
+            <argument>Sonata\Bundle\DemoBundle\Entity\Restauracia</argument>
+            <argument />
+        </service>
+
+        <service id="sonata.demo.admin.majitel" class="Sonata\Bundle\DemoBundle\Admin\MajitelAdmin">
+            <tag name="sonata.admin" manager_type="orm" group="My" label="Majitel" audit="false" />
+
+            <argument />
+            <argument>Sonata\Bundle\DemoBundle\Entity\Majitel</argument>
+            <argument />
+        </service>
     </services>
 
 </container>
